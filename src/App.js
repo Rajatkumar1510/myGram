@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "./components/Footer";
 import ImageGrid from "./components/ImageGrid";
 import Modals from "./components/Modals";
 import Title from "./components/Title";
@@ -17,6 +18,7 @@ function App() {
           setSelectedImage={setSelectedImage}
         />
       )}
+      <Footer/>
     </div>
   );
 }
